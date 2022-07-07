@@ -35,7 +35,7 @@ const Contactmain = () => {
     
      <PageTitle title={'contact us'} />
 
-    <Grid container gap={2} className='container-fluid'   justifyContent='space-between' >
+    <Grid container gap={2} className='container-fluid' alignItems='center'  justifyContent='space-between' >
     {
        data.map((item)=>(
            <Grid item xs={12} md={3.5}>
