@@ -13,7 +13,7 @@ const About = () => {
     <Grid container gap={2} justifyContent='space-between' >
     
     <Grid item xs={12}  md={6.5} minHeight='50vh' >
-     <img src={ process.env.PUBLIC_URL + "img/about.jpg"} style={{width:'100%', height:'100%', objectFit:'cover'}}  alt="" />
+     <img src="img/about.jpg" style={{width:'100%', height:'100%', objectFit:'cover'}}  alt="" />
     </Grid>
     <Grid item container gap={4} justifyContent='start' alignItems='start'  xs={12} md={5}>
     <div>
