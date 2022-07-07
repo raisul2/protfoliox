@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/protfoliox/static/css/main.c8917bbd.css",
-    "main.js": "/protfoliox/static/js/main.f1691c5d.js",
+    "main.js": "/protfoliox/static/js/main.06639757.js",
     "index.html": "/protfoliox/index.html",
     "main.c8917bbd.css.map": "/protfoliox/static/css/main.c8917bbd.css.map",
-    "main.f1691c5d.js.map": "/protfoliox/static/js/main.f1691c5d.js.map"
+    "main.06639757.js.map": "/protfoliox/static/js/main.06639757.js.map"
   },
   "entrypoints": [
     "static/css/main.c8917bbd.css",
-    "static/js/main.f1691c5d.js"
+    "static/js/main.06639757.js"
   ]
 }
