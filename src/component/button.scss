@@ -1,0 +1,13 @@
+@import '../scss/media';
+@import '../scss/mixin';
+@import '../scss/varible';
+
+
+.button-1{
+    padding: 10px;
+    height: 8vh;
+    width: auto;
+    border: 100px;
+    background-color: $prymary-color;
+    box-shadow: $box-shadow-8-penumbra;
+}

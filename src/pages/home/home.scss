@@ -1,0 +1,99 @@
+@import '../../scss/media';
+@import '../../scss/mixin';
+@import '../../scss/varible';
+
+
+.main-home{
+min-height: 100vh;
+background-color: $prymary-color;
+position: relative;
+overflow: hidden ;
+.home-wrap{
+    margin: auto;
+   min-height: 100vh;
+    @include flex(center, space-between, row, 0);
+    @include respond-below(sm){
+        @include flex(center, space-between, column, 0);
+        
+    }
+    
+}
+
+}
+
+
+
+
+.home-text{
+
+    @include flex(start, center, column, 2rem);
+    z-index: 2;
+    h1{
+        
+        color:$white;
+        font-size: 10em;
+        line-height: 1.5em;
+       white-space: 0;
+        @include respond-below(sm){
+            
+            font-size: 4em;
+        }
+  
+        @include respond-between (xs, md){
+            
+            font-size: 7em;
+        }
+  
+
+     
+     
+    }
+
+}
+
+
+#homeimg{
+position: absolute;
+bottom: -300px;
+    @include respond-below(md){
+        display: none;
+    }
+
+}
+
+#homeimg2{
+position: absolute;
+top:0;
+right: 0;
+@include respond-below(md){
+    display: none;
+}
+
+    
+}
+.homeimg3{
+position: absolute;
+
+right: 0;
+
+
+    bottom: -15px;
+
+
+img{
+   
+    max-width: 500px;
+        
+    
+}
+    
+}
+
+.home-icon{
+    @include flex(center, center,row, 20px);
+    
+    svg{
+        font-size: 2.5em;
+        color: $secoundry-color;
+    }
+}
