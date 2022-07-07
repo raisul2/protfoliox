@@ -20,7 +20,7 @@ const Aboutmain = () => {
 
            <Grid container py={2} className='container-fluid' justifyContent='space-between' gap={2} >
               <Grid item xs={12} md={5.5} >
-              <img src={ process.env.PUBLIC_URL + "img/about.jpg"} alt="" />
+              <img src="img/about.jpg" alt="" />
               </Grid>
               <Grid item xs={12} md={5.5} container gap >
               <MainTextTitle title={'about us'} 
@@ -96,7 +96,7 @@ const Aboutmain = () => {
 
                </Grid>
                <Grid item xs={12} md={5.5} >
-               <img src={ process.env.PUBLIC_URL + "img/about.jpg"} alt="" />
+               <img src="img/about.jpg" alt="" />
                </Grid>
            </Grid>
 
