@@ -21,7 +21,7 @@ const Contactmain = () => {
         {
             icon:<LocationOnIcon  fontSize='large' sx={sty} />,
             name:'location',
-             title:"bangladesh,rajshahi,bogra,thinmathrelget"
+             title:"bangladesh,rajshahi,bogra"
         },
         {
             icon:<EmailIcon  fontSize='large' sx={sty} /> ,
@@ -38,7 +38,7 @@ const Contactmain = () => {
     <Grid container gap={2} className='container-fluid'   justifyContent='space-between' >
     {
        data.map((item)=>(
-           <Grid item sx={12} md={3.5}>
+           <Grid item xs={12} md={3.5}>
             <ContactBox name={item.name} title={item.title} icon={item.icon} />
            </Grid>
 
