@@ -87,7 +87,7 @@ const Testomonial = () => {
                       
                      <ListItemAvatar>
                      <Avatar>
-                        <img src={  process.env.PUBLIC_URL + "img/profile2.png"} alt="" />
+                        <img src="img/profile2.png" alt="" />
                      </Avatar>
                    </ListItemAvatar>
                        
