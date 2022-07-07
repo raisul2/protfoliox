@@ -45,7 +45,7 @@ export function Blogmainbox() {
     <Myblogbox>
     
     <Box>
-    <img src={ process.env.PUBLIC_URL + "img/about.jpg"} alt="" />
+    <img src="img/about.jpg" alt="" />
     </Box>
 
     <Stack gap >
