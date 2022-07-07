@@ -42,7 +42,7 @@ const LeftContaienr = () => {
       item.img === '' ? null :  
     
     <Stack borderRadius={2} minHeight='30vh' overflow='hidden'  boxShadow={2}  >
-    <img src={ process.env.PUBLIC_URL + item.img} alt="" />
+    <img src={item.img} alt="" />
        </Stack>
       }
        <Box width={{sm:1/3, xs:1}} >
@@ -145,7 +145,7 @@ function Comentavater() {
    return(
      <Stack gap direction='row' >
          <Avatar>
-         <img src={ process.env.PUBLIC_URL + "img/profile2.png"} alt="" />
+         <img src="img/profile2.png" alt="" />
          </Avatar>
       
          <Stack>
