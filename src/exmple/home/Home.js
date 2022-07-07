@@ -51,7 +51,7 @@ const Home = () => {
              transition="transition"
              
             item container justifyContent='end' xs={12} md={5}>
-            <img src={  process.env.PUBLIC_URL + "img/home.svg"} alt="" />
+            <img src="img/home.svg" alt="" />
             </Grid>
         </Grid>
     </Box>
