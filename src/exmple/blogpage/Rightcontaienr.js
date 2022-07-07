@@ -109,7 +109,7 @@ function BlogResentPost() {
     return(
         <Stack direction='row' gap justifyContent='space-between' >
         <Box hright="30vh" width={1/2} >
-        <img src={ process.env.PUBLIC_URL + "img/about.jpg"} alt="" />
+        <img src="img/about.jpg" alt="" />
         </Box>
         <Stack>
 
