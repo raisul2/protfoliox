@@ -6,7 +6,7 @@ const Mystory = () => {
         <Grid container gap={2} justifyContent='space-between'  alignItems='start' >
             <Grid item xs={12} boxShadow={2} md={5.5}   >
             <Stack>
-            <img src={ process.env.PUBLIC_URL + 'img/profile3.png'} alt="" />
+            <img src='img/profile3.png' alt="" />
             </Stack>
             </Grid>
             <Grid item xs={12} md={5.5} container gap={3} >
@@ -37,7 +37,7 @@ const Mystory = () => {
        </Grid>    
         <Grid item xs={12} boxShadow={2} md={5.5}   >
             <Stack>
-            <img src={process.env.PUBLIC_URL + 'img/gol1.jpg' } alt="" />
+            <img src='img/gol1.jpg' alt="" />
             </Stack>
             </Grid>
            
@@ -46,7 +46,7 @@ const Mystory = () => {
         <Grid container gap={2} justifyContent='space-between'  alignItems='start' >
         <Grid item xs={12} boxShadow={2} md={5.5}   >
         <Stack>
-        <img src={process.env.PUBLIC_URL + 'img/design1.jpg' } alt="" />
+        <img src='img/design1.jpg' alt="" />
         </Stack>
         </Grid>
         <Grid item xs={12} md={5.5} container gap={3} >
