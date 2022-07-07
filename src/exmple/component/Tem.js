@@ -52,7 +52,7 @@ const Tem = () => {
 
             <SwiperSlide>
             <MyTemcard>
-            <img src={  process.env.PUBLIC_URL  + "img/profile2.png"}
+            <img src="img/profile2.png"
           
           style={{  width:'100%', 
           height:'100%', objectFit:'contain' }}
